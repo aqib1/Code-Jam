@@ -12,15 +12,17 @@ import java.util.Scanner;
 public class Vestigium {
 	private static final Boolean FILE_READ = true;
 	private static final String VESTIGINUM1_IN = "resources/round/qualification/Vestiginum-1.in";
+	// Overall time O(n)2 and space O(n)
 	public static int[] calculate(int[][] latinArray) {
 		int[] result = new int[3];
 
+		// O(n)
 		// calculating trace
 		for (int x = 0; x < latinArray.length; x++) {
 			result[0] += latinArray[x][x];
 		}
 
-		// row wise check
+		// row wise check O(n2)
 		for (int row = 0; row < latinArray.length; row++) {
 			HashSet<Integer> set = new HashSet<>();
 			for (int column = 0; column < latinArray[row].length; column++) {
@@ -30,7 +32,7 @@ public class Vestigium {
 				result[1]++;
 		}
 
-		// columns wise check
+		// columns wise check O(n2)
 		for (int column = 0; column < latinArray.length; column++) {
 			HashSet<Integer> set = new HashSet<>();
 			for (int row = 0; row < latinArray.length; row++) {
