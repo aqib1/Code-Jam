@@ -12,4 +12,4 @@ Eclipse is my favorite IDE, so i created my soultion there, you can run those on
 ## Code Jam 2020
  - Qualification round:
    - **Vestigium** trivial O(n*n) solution scanning rows and columns for duplicates
-
+   - **NestingDepth** linear solution O(n) with simple math hack 
