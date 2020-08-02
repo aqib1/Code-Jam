@@ -10,6 +10,6 @@ Each class provided have time and space complexity required to solve problem, So
 Eclipse is my favorite IDE, so i created my soultion there, you can run those on any IDE you like :)
 
 # code Jam 2020
- - Qualification Round
-    1. ###Vestigium 
+ - Qualification round:
+   - **Vestigium** trivial O(n*n) solution scanning rows and columns for duplicates
 
