@@ -13,3 +13,4 @@ Eclipse is my favorite IDE, so i created my soultion there, you can run those on
  - Qualification round:
    - **Vestigium** trivial O(n*n) solution scanning rows and columns for duplicates
    - **Nesting depth** linear solution O(n) with simple math hack 
+   - **Parenting Partnering Returns** liner solution with sorting O(nLogn) solution
