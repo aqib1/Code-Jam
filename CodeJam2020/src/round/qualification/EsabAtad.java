@@ -78,7 +78,7 @@ public class EsabAtad {
 		return reverse;
 	}
 
-	// Time complexity is O(nlogn) and space is O(n)
+	// Time complexity is O(n)2 and space is O(n)
 	private static boolean runTest(int bitCount, Scanner scanner) {
 		BitSet bitSet = new BitSet(bitCount);
 		int bitIndex = 0;
