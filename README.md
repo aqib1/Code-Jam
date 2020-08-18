@@ -14,3 +14,4 @@ Eclipse is my favorite IDE, so i created my soultion there, you can run those on
    - **Vestigium** trivial O(n*n) solution scanning rows and columns for duplicates
    - **Nesting depth** linear solution O(n) with simple math hack 
    - **Parenting Partnering Returns** liner solution with sorting O(nLogn) solution
+   -- **ESAb ATAd** interactive problem, solved by querying two opposite bits and similiar every 10 queries to detect the kind of "quantum fluctuation".
